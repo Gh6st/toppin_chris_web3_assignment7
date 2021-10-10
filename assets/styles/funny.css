@@ -1,0 +1,577 @@
+/*4k- Desktop*/
+@media screen and (max-width: 2560px) {
+  body {
+    margin: auto;
+    padding: 0;
+    font-family: lato;
+  }
+
+  h1{
+    font-size: 24pt;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+    line-height: 42pt;
+  }
+
+  h2{
+    font-size: 20pt;
+    margin-top: 0pt;
+    line-height: 30pt;
+  }
+
+  h3{
+    font-size: 14pt;
+    font-weight: normal;
+    line-height: 20pt;
+    padding: 0;
+    margin: 0;
+  }
+
+  p{
+    font-size: 16pt;
+    line-height: 19pt;
+    margin-bottom: 0px;
+  }
+
+  #pagewrap {
+    padding: 30px 100px 30px 100px;
+    display: table;
+  }
+
+  header{
+    height: 100px;
+    padding: 42px;
+    background-color: #f92;
+    border-radius: 24px;
+  }
+
+  #cards{
+    width: 100%;
+    position: static;
+    display: table;
+    background-color: #f0f;
+    margin: 62px 0px 62px 0px;
+    border-radius: 24px;
+  }
+
+  .photo{
+    float: right;
+    width: 50%;
+    height: 100%;
+  }
+
+  iframe{
+    float: right;
+    position: relative;
+    border-radius: 0px 24px 24px 0px;
+    width: 100%;
+  }
+
+  .content{
+    float: left;
+    width: 45%;
+    padding: 42px;
+    margin: 0px;
+  }
+
+  footer{
+    position: sticky;
+    height: 100px;
+    padding: 42px;
+    border-radius: 24px;
+    background-color: #f92;
+  }
+}
+
+
+/*Desktop*/
+@media screen and (max-width: 1900px) {
+  body {
+    margin: auto;
+    padding: 0;
+    font-family: lato;
+  }
+
+  h1{
+    font-size: 24pt;
+    margin-top: 0pt;
+    line-height: 42pt;
+  }
+
+  h2{
+    font-size: 20pt;
+    margin-top: 0pt;
+    line-height: 30pt;
+  }
+
+  h3{
+    font-size: 14pt;
+    font-weight: normal;
+    line-height: 20pt;
+    padding: 0;
+    margin: 0;
+  }
+
+  p{
+    font-size: 16pt;
+    line-height: 17pt;
+    margin-bottom: 0px;
+  }
+
+  #pagewrap {
+    padding: 30px 100px 30px 100px;
+    display: table;
+  }
+
+  header{
+    height: 100px;
+    padding: 42px;
+    background-color: #f92;
+    border-radius: 24px;
+  }
+
+  #cards{
+    width: 100%;
+    position: static;
+    display: table;
+    background-color: #f0f;
+    margin: 62px 0px 62px 0px;
+    border-radius: 24px;
+  }
+
+  .photo{
+    float: right;
+    width: 50%;
+    height: 100%;
+  }
+
+  iframe{
+    float: right;
+    position: relative;
+    border-radius: 0px 24px 24px 0px;
+    width: 100%;
+  }
+
+  .content{
+    float: left;
+    width: 40%;
+    padding: 42px;
+    margin: 0px;
+  }
+
+  footer{
+    position: sticky;
+    height: 100px;
+    padding: 42px;
+    border-radius: 24px;
+    background-color: #f92;
+  }
+}
+
+
+
+/*Desktop*/
+@media screen and (max-width: 1440px) {
+  body {
+    margin: auto;
+    padding: 0;
+    font-family: lato;
+  }
+
+  h1{
+
+    font-size: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  h2{
+    font-size: 24px;
+  }
+
+  h3{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 50%;
+    margin: 0;
+  }
+
+  p{
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  #pagewrap {
+    padding: 30px 30px 30px 30px;
+    display: table;
+  }
+
+  header{
+    height: 100px;
+    padding: 24px;
+    background-color: #f92;
+    border-radius: 24px;
+  }
+
+  #cards{
+    width: 100%;
+    position: static;
+    display: table;
+    background-color: #f0f;
+    margin: 62px 0px 62px 0px;
+    border-radius: 24px;
+  }
+
+  .photo{
+    float: right;
+    width: 50%;
+    height: 100%;
+  }
+
+  iframe{
+    left:0;
+    position: relative;
+    top:0;
+    border-radius: 0px 24px 24px 0px;
+    width: 100%;
+  }
+
+  .content{
+    float: left;
+    width: 45%;
+    padding: 24px;
+    margin: 0px;
+  }
+
+  footer{
+    height: 100px;
+    padding: 24px;
+    border-radius: 24px;
+    background-color: #f92;
+  }
+}
+
+
+
+/*Desktop*/
+@media screen and (max-width: 1024px) {
+  body {
+    margin: auto;
+    padding: 0;
+    font-family: lato;
+  }
+
+  h1{
+
+    font-size: 23pt;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+  }
+
+  h2{
+    font-size: 23px;
+    margin-bottom: 12px;
+  }
+
+  h3{
+    font-size: 13pt;
+    font-weight: normal;
+    line-height: 15pt;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  p{
+    font-size: 14pt;
+    line-height: 18pt;
+    margin: 0px;
+  }
+
+  #pagewrap {
+    padding: 30px 30px 30px 30px;
+    display: table;
+  }
+
+  header{
+    height: 100px;
+    padding: 24px;
+    background-color: #f92;
+    border-radius: 24px;
+  }
+
+  #cards{
+    width: 100%;
+    position: static;
+    display: table;
+    background-color: #f0f;
+    margin: 62px 0px 62px 0px;
+    border-radius: 24px;
+  }
+
+  .photo{
+    float: right;
+    width: 45%;
+    height: 100%;
+  }
+
+  iframe{
+    left:0;
+    position: relative;
+    top:0;
+    border-radius: 0px 24px 24px 0px;
+    width: 100%;
+  }
+
+  .content{
+    float: left;
+    width: 45%;
+    padding: 24px;
+    margin: 0px;
+  }
+
+  footer{
+    height: 100px;
+    padding: 24px;
+    border-radius: 24px;
+    background-color: #f92;
+  }
+}
+
+
+
+/*Tablet*/
+@media screen and (max-width: 980px) {
+  body {
+    margin: auto;
+    padding: 0;
+    font-family: lato;
+  }
+
+  h1{
+    font-size: 20pt;
+    line-height: 28pt;
+    margin-top: 0pt;
+  }
+
+  h2{
+    font-size: 18pt;
+  }
+
+  h3{
+    font-size: 12pt;
+    font-weight: normal;
+    line-height: 16pt;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  p{
+    font-size: 14pt;
+    line-height: 22pt;
+  }
+
+
+  #pagewrap {
+    padding: 30px;
+    display: table;
+  }
+
+  header{
+    height: 100px;
+    padding: 24px;
+    background-color: #f92;
+    border-radius: 24px;
+  }
+
+  #cards{
+    width: 100%;
+    position: static;
+    display: table;
+    background-color: #f0f;
+    margin: 62px 0px 62px 0px;
+    border-radius: 24px;
+  }
+
+  .photo{
+    width: 100%;
+    height: 100%;
+  }
+
+  iframe{
+    left:0;
+    position: relative;
+    top:0;
+    border-radius: 24px 24px 0px 0px;
+    width: 100%;
+  }
+
+  .content{
+    float: left;
+    width: 90%;
+    padding: 24px;
+    margin: 0px;
+  }
+
+  footer{
+    height: 100px;
+    position: relative;
+    padding: 24px;
+    border-radius: 24px;
+    background-color: #f92;
+  }
+}
+
+footer h3 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+}
+
+
+
+/*Mobile*/
+@media screen and (max-width: 425px) {
+  body {
+    margin: auto;
+    padding: 0;
+    font-family: lato;
+  }
+
+  h1{
+    font-size: 32pt;
+    line-height: 37pt;
+    margin-top: 0pt;
+  }
+
+  h2{
+    font-size: 32pt;
+  }
+
+  h3{
+    font-size: 16pt;
+    font-weight: normal;
+    line-height: 26pt;
+    padding: 0;
+    margin: 0;
+  }
+
+  p{
+    font-size: 22pt;
+    line-height: 32pt;
+  }
+
+
+  #pagewrap {
+    padding: 30px 300px 30px 300px;
+    display: table;
+  }
+
+  header{
+    height: 100px;
+    padding: 24px;
+    background-color: #f92;
+    border-radius: 24px;
+  }
+
+  #cards{
+    width: 100%;
+    position: static;
+    display: table;
+    background-color: #f0f;
+    margin: 62px 0px 62px 0px;
+    border-radius: 24px;
+  }
+
+  .photo{
+    float: right;
+    width: 50%;
+    height: 100%;
+  }
+
+  iframe{
+    left:0;
+    position: relative;
+    top:0;
+    border-radius: 24px 24px 0px 0px;
+    width: 100%;
+  }
+
+  .content{
+    float: left;
+    width: 90%;
+    padding: 24px;
+    margin: 0px;
+  }
+
+  footer{
+    height: 100px;
+    padding: 24px;
+    border-radius: 24px;
+    background-color: #f92;
+  }
+}
+
+
+
+/*Print*/
+@media print{
+  body {
+    font-family: ariel;
+  }
+@page{
+  margin: 0.5cm;
+}
+  h1{
+    font-size: 24pt;
+  }
+
+  h2{
+    font-size: 16pt;
+  }
+
+  h3{
+    font-size: 12pt;
+    font-weight: normal;
+    line-height: 26px;
+  }
+
+  p{
+    font-size: 14pt;
+    line-height: 32px;
+  }
+
+
+  #pagewrap {
+    padding: 0px;
+  }
+
+  header{
+    height: 100px;
+    padding: 24px;
+  }
+
+  #cards{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .photo{
+    display: none;
+  }
+
+  iframe{
+    display: none;
+  }
+
+  .content{
+    width: 90%;
+  }
+
+  footer{
+  }
+}
