@@ -256,309 +256,314 @@
       font-family: lato;
       }
 
-  h1{
-    font-size: 23pt;
-    margin-top: 0pt;
-    margin-bottom: 0pt;
+    h1 {
+      font-size: 23pt;
+      margin-top: 0pt;
+      margin-bottom: 0pt;
+      }
+
+    h2 {
+      font-size: 23px;
+      margin-bottom: 12px;
+      }
+
+    h3 {
+      font-size: 13pt;
+      font-weight: normal;
+      line-height: 15pt;
+      padding: 0;
+      margin: 0;
+      }
+
+    p {
+      font-size: 14pt;
+      line-height: 18pt;
+      margin: 0px;
+      }
+
+    #pagewrap {
+      padding: 30px 30px 30px 30px;
+      display: table;
+      }
+
+    header {
+      height: 100px;
+      padding: 24px;
+      background-color: #f92;
+      border-radius: 24px;
+      }
+
+    #cards {
+      width: 100%;
+      position: static;
+      display: table;
+      background-color: #f0f;
+      margin: 62px 0px 62px 0px;
+      border-radius: 24px;
+      }
+
+    .photo {
+      float: right;
+      width: 45%;
+      height: 100%;
+      }
+
+    iframe {
+      left:0;
+      position: relative;
+      top:0;
+      border-radius: 0px 24px 24px 0px;
+      width: 100%;
+      }
+
+    .content {
+      float: left;
+      width: 45%;
+      padding: 24px;
+      margin: 0px;
+      }
+
+    footer {
+      height: 100px;
+      padding: 24px;
+      border-radius: 24px;
+      background-color: #f92;
+      }
+  }
+
+/*Tablet - 980*/
+  @media screen and (max-width: 980px) {
+    body {
+      margin: auto;
+      padding: 0;
+      font-family: lato;
+      }
+
+    h1 {
+      font-size: 20pt;
+      line-height: 28pt;
+      margin-top: 0pt;
+      }
+
+    h2 {
+      font-size: 18pt;
+      }
+
+    h3 {
+      font-size: 12pt;
+      font-weight: normal;
+      line-height: 16pt;
+      padding: 0px;
+      margin: 0px;
+      }
+
+    p {
+      font-size: 14pt;
+      line-height: 22pt;
+      }
+
+    #pagewrap {
+      padding: 30px;
+      display: table;
+      }
+
+    header {
+      height: 100px;
+      padding: 24px;
+      background-color: #f92;
+      border-radius: 24px;
+      }
+
+    #cards {
+      width: 100%;
+      position: static;
+      display: table;
+      background-color: #f0f;
+      margin: 62px 0px 62px 0px;
+      border-radius: 24px;
+      }
+
+    .photo {
+      width: 100%;
+      height: 100%;
+      }
+
+    iframe {
+      left:0;
+      position: relative;
+      top:0;
+      border-radius: 24px 24px 0px 0px;
+      width: 100%;
+      }
+
+    .content {
+      float: left;
+      width: 90%;
+      padding: 24px;
+      margin: 0px;
+      }
+
+    footer {
+      height: 100px;
+      position: relative;
+      padding: 24px;
+      border-radius: 24px;
+      background-color: #f92;
+      }
+
+    footer h3 {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      }
    }
 
-  h2{
-    font-size: 23px;
-    margin-bottom: 12px;
-   }
+/*Mobile - 425*/
+  @media screen and (max-width: 425px) {
+    body {
+      margin: auto;
+      padding: 0;
+      font-family: lato;
+      }
 
-  h3{
-    font-size: 13pt;
-    font-weight: normal;
-    line-height: 15pt;
-    padding: 0;
-    margin: 0;
-   }
+    h1 {
+      font-size: 32pt;
+      line-height: 37pt;
+      margin-top: 0pt;
+      }
 
-  p{
-    font-size: 14pt;
-    line-height: 18pt;
-    margin: 0px;
-   }
+    h2 {
+      font-size: 32pt;
+      }
 
-  #pagewrap {
-    padding: 30px 30px 30px 30px;
-    display: table;
-   }
+    h3 {
+      font-size: 16pt;
+      font-weight: normal;
+      line-height: 26pt;
+      padding: 0;
+      margin: 0;
+      }
 
-  header{
-    height: 100px;
-    padding: 24px;
-    background-color: #f92;
-    border-radius: 24px;
-   }
+    p {
+      font-size: 22pt;
+      line-height: 32pt;
+      }
 
-  #cards{
-    width: 100%;
-    position: static;
-    display: table;
-    background-color: #f0f;
-    margin: 62px 0px 62px 0px;
-    border-radius: 24px;
-   }
+    #pagewrap {
+      padding: 30px 300px 30px 300px;
+      display: table;
+      }
 
-  .photo{
-    float: right;
-    width: 45%;
-    height: 100%;
-   }
+    header {
+      height: 100px;
+      padding: 24px;
+      background-color: #f92;
+      border-radius: 24px;
+      }
 
-  iframe{
-    left:0;
-    position: relative;
-    top:0;
-    border-radius: 0px 24px 24px 0px;
-    width: 100%;
-   }
+    #cards {
+      width: 100%;
+      position: static;
+      display: table;
+      background-color: #f0f;
+      margin: 62px 0px 62px 0px;
+      border-radius: 24px;
+      }
 
-  .content{
-    float: left;
-    width: 45%;
-    padding: 24px;
-    margin: 0px;
-   }
+    .photo {
+      float: right;
+      width: 50%;
+      height: 100%;
+      }
 
-  footer{
-    height: 100px;
-    padding: 24px;
-    border-radius: 24px;
-    background-color: #f92;
-   }
- }
+    iframe {
+      left:0;
+      position: relative;
+      top:0;
+      border-radius: 24px 24px 0px 0px;
+      width: 100%;
+      }
 
+    .content {
+      float: left;
+      width: 90%;
+      padding: 24px;
+      margin: 0px;
+      }
 
-/*Tablet*/
-@media screen and (max-width: 980px) {
-  body {
-    margin: auto;
-    padding: 0;
-    font-family: lato;
-   }
+    footer {
+      height: 100px;
+      padding: 24px;
+      border-radius: 24px;
+      background-color: #f92;
+      }
 
-  h1{
-    font-size: 20pt;
-    line-height: 28pt;
-    margin-top: 0pt;
-   }
-
-  h2{
-    font-size: 18pt;
-   }
-
-  h3{
-    font-size: 12pt;
-    font-weight: normal;
-    line-height: 16pt;
-    padding: 0px;
-    margin: 0px;
-   }
-
-  p{
-    font-size: 14pt;
-    line-height: 22pt;
-   }
-
-  #pagewrap {
-    padding: 30px;
-    display: table;
-   }
-
-  header{
-    height: 100px;
-    padding: 24px;
-    background-color: #f92;
-    border-radius: 24px;
-   }
-
-  #cards{
-    width: 100%;
-    position: static;
-    display: table;
-    background-color: #f0f;
-    margin: 62px 0px 62px 0px;
-    border-radius: 24px;
-   }
-
-  .photo{
-    width: 100%;
-    height: 100%;
-   }
-
-  iframe{
-    left:0;
-    position: relative;
-    top:0;
-    border-radius: 24px 24px 0px 0px;
-    width: 100%;
-   }
-
-  .content{
-    float: left;
-    width: 90%;
-    padding: 24px;
-    margin: 0px;
-   }
-
-  footer{
-    height: 100px;
-    position: relative;
-    padding: 24px;
-    border-radius: 24px;
-    background-color: #f92;
-   }
- }
-
-footer h3 {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
- }
- }
-
-
-
-/*Mobile*/
-@media screen and (max-width: 425px) {
-  body {
-    margin: auto;
-    padding: 0;
-    font-family: lato;
-   }
-
-  h1{
-    font-size: 32pt;
-    line-height: 37pt;
-    margin-top: 0pt;
-   }
-
-  h2{
-    font-size: 32pt;
-   }
-
-  h3{
-    font-size: 16pt;
-    font-weight: normal;
-    line-height: 26pt;
-    padding: 0;
-    margin: 0;
-   }
-
-  p{
-    font-size: 22pt;
-    line-height: 32pt;
-   }
-
-  #pagewrap {
-    padding: 30px 300px 30px 300px;
-    display: table;
-   }
-
-  header{
-    height: 100px;
-    padding: 24px;
-    background-color: #f92;
-    border-radius: 24px;
-   }
-
-  #cards{
-    width: 100%;
-    position: static;
-    display: table;
-    background-color: #f0f;
-    margin: 62px 0px 62px 0px;
-    border-radius: 24px;
-   }
-
-  .photo{
-    float: right;
-    width: 50%;
-    height: 100%;
-   }
-
-  iframe{
-    left:0;
-    position: relative;
-    top:0;
-    border-radius: 24px 24px 0px 0px;
-    width: 100%;
-   }
-
-  .content{
-    float: left;
-    width: 90%;
-    padding: 24px;
-    margin: 0px;
-   }
-
-  footer{
-    height: 100px;
-    padding: 24px;
-    border-radius: 24px;
-    background-color: #f92;
-   }
- }
-
+    footer h3 {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      }
+  }
 
 /*Print*/
-@media print{
-  body {
-    font-family: ariel;
-   }
-@page{
-  margin: 0.5cm;
- }
-  h1{
-    font-size: 24pt;
-   }
+  @media print {
+    body {
+      font-family: arial;
+      }
 
-  h2{
-    font-size: 16pt;
-   }
+    @page {
+      margin: 0.5cm;
+      }
 
-  h3{
-    font-size: 12pt;
-    font-weight: normal;
-    line-height: 26px;
-   }
+    h1 {
+      font-size: 24pt;
+      }
 
-  p{
-    font-size: 14pt;
-    line-height: 32px;
-   }
+    h2 {
+      font-size: 16pt;
+      }
 
-  #pagewrap {
-    padding: 0px;
-   }
+    h3 {
+      font-size: 12pt;
+      font-weight: normal;
+      line-height: 26px;
+      }
 
-  header{
-    height: 100px;
-    padding: 24px;
-   }
+    p {
+      font-size: 14pt;
+      line-height: 32px;
+      }
 
-  #cards{
-    margin-top: 5px;
-    margin-bottom: 5px;
-   }
+    #pagewrap {
+      padding: 0px;
+      }
 
-  .photo{
-    display: none;
-   }
+    header {
+      height: 100px;
+      padding: 24px;
+      }
 
-  iframe{
-    display: none;
-   }
+    #cards {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      }
 
-  .content{
-    width: 90%;
-   }
+    .photo {
+      display: none;
+      }
 
-  footer{
-   }
- }
+    iframe {
+      display: none;
+      }
+
+    .content {
+      width: 90%;
+      }
+
+    footer {
+      }
+  }
