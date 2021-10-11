@@ -526,6 +526,7 @@
 
     h2 {
       font-size: 16pt;
+      line-height: 26px;
       }
 
     h3 {
@@ -563,8 +564,12 @@
 
     .content {
       width: 90%;
+      padding: 24px;
+      padding-bottom: 12px;
       }
 
     footer {
+      padding-left: 24px;
+      padding-right: 24px;
       }
   }
